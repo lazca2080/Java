@@ -59,12 +59,10 @@ public class ArrayTest {
 		System.out.println("scores의 합 : "+total);
 		
 		// 2차원 배열
-		int[][] arr2d = {{1,  2,  3,  4}, 
-						 {5,  6,  7,  8}, 
-						 {9, 10, 11, 12}};
+		int[][] arr2d = {{1,  2,  3,  4}, {5,  6,  7,  8}, {9, 10, 11, 12}};
 		
 		for(int x = 0; x<3; x++) {
-			for(int z = 0; z<2; z++) {
+			for(int z = 0; z<4; z++) {
 				System.out.println("arr2d["+x+"]["+z+"] : "+arr2d[x][z]);
 			}
 		}
