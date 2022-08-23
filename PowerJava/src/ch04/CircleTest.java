@@ -2,9 +2,13 @@ package ch04;
 
 public class CircleTest {
 	public static void main(String[] args) {
-		Circle obj; // 참조 변수 선언
 		
-		obj = new Circle(); // 객체 생성
+		//Circle obj;
+		
+		//obj = new Circle();
+		
+		
+		Circle obj = new Circle();
 		
 		obj.radius = 100;
 		
