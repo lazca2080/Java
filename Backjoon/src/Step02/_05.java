@@ -12,6 +12,22 @@ public class _05 {
 		Scanner sc = new Scanner(System.in);
 		 int h = sc.nextInt();
 		 int m = sc.nextInt();
+		 
+		 int y = h-1;
+		 int x = m-45;
+		 
+		 if(h<=0 && x<0) {
+			 System.out.print((h+24)-1 +" ");
+			 System.out.println(x+60);
+		 }else if(h>0 && x<0) {
+			 System.out.print(h-1 +" ");
+			 System.out.println(x+60);
+		 }else if(h<=0 && x>0) {
+			 System.out.print(h+24 +" ");
+			 System.out.println(x);
+		 }else {
+			 System.out.print(h+" ");
+			 System.out.println(x);
+		 }
 	}
-
 }
