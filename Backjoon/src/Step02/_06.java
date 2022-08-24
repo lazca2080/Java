@@ -15,20 +15,12 @@ public class _06 {
 		int m = sc.nextInt();
 		int n = sc.nextInt();
 		
-		if(m+n>60) {
-			if(h>23) {
-				System.out.print((h+1)-24);
-				System.out.println((m+n)-60);
-			}else {
-				System.out.print(h+1);
-				System.out.println((m+n)-60);
-			}
-		}else if(h==24) {
-			System.out.print(h-24);
-			System.out.println(m+n);
-		}else {
-			System.out.print(h);
-			System.out.println(m+n);
+		h = h+(m+n)/60;
+		m = (m+n)%60;
+		
+		if(h>=24) {
+			h=h-24;
 		}
+		System.out.println(h+ " "+ m);
 	}
 }
