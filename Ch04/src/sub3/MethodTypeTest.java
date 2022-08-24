@@ -40,7 +40,7 @@ public class MethodTypeTest {
 		}
 	}
 	
-	// type1 : 매개변수 X, 리턴값 O
+	// type3 : 매개변수 X, 리턴값 O
 	public static boolean type3() {
 		
 		int num1 = 1;
@@ -54,7 +54,7 @@ public class MethodTypeTest {
 		
 	}
 	
-	// type1 : 매개변수 X, 리턴값 X
+	// type4 : 매개변수 X, 리턴값 X
 	public static void type4() {
 		System.out.println("type4 result : "+type1(1.2));
 	}
