@@ -1,6 +1,6 @@
 package ch04;
 	
-public class DeskLamp {
+public class P150_DeskLamp {
 	//인스턴스 변수 정의
 	private boolean isOn;
 	

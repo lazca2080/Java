@@ -1,9 +1,9 @@
 package ch04;
 
-public class DeskLampTest {
+public class P150_DeskLampTest {
 	public static void main(String[] args) {
-		// 객체를 생성하려면 new 예약어를 사용한다.
-		DeskLamp myLamp = new DeskLamp();
+
+		P150_DeskLamp myLamp = new P150_DeskLamp();
 		
 		
 		// 객체의 메소드를 호출하려면 도트 연산자인 .을 사용한다.
