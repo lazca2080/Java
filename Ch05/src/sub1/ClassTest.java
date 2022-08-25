@@ -4,6 +4,10 @@ package sub1;
  * 날짜 : 2022/08/25
  * 이름 : 박종협
  * 내용 : Java 클래스 실습하기
+ * 
+ * 클래스와 객체
+ * 	- 클래스는 객체를 생성하는 구조체이고 속성(필드)과 기능(메서드)으로 구성
+ * 	- 객체는 클래스의 실제 인스턴스(메모리상에 생성되는 클래스)
  */
 public class ClassTest {
 	public static void main(String[ ] args) {
@@ -15,6 +19,7 @@ public class ClassTest {
 		sonata.name = "소나타";
 		sonata.color = "흰색";
 		sonata.speed = 10;
+		
 		
 		// 객체 기능
 		sonata.speedUp(80);
