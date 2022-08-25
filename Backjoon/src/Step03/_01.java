@@ -16,7 +16,7 @@ public class _01 {
 			for(int m = 1; m<=9; m++) {
 				int x = n*m;
 				System.out.printf("%d * %d = %d\n", n, m, x);
-			
+				
 			}
 			break;
 		}
