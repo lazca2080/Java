@@ -15,9 +15,9 @@ public class _12 {
 		int a = sc.nextInt();
 		int b = sc.nextInt();
 		
-		int c = a*(b%10);
-		int d = a*((b%100)/10);
-		int e = a*(b/100);
+		int c = a*(b%10);			//1의 자리숫자
+		int d = a*((b%100)/10);		//10의 자리숫자
+		int e = a*(b/100);			//100의 자리숫자
 		int f = a*b;
 		
 		System.out.println(c);
