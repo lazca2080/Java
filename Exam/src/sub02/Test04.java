@@ -25,10 +25,11 @@ public class Test04 {
 			
 			for(int j = i+1; j<5; j++) {
 				
-				if(arr[i] > arr[j]) {
-					int temp = arr[j];
-					arr[j] = arr[i];
-					arr[i] = temp;
+				if(arr[i] > arr[j]) {  	// 4 > 2
+					int temp = arr[j]; 	// temp에 2값을 저장
+					arr[j] = arr[i];	// 두번째 배열의 숫자 4대입
+					arr[i] = temp;		// 첫번째 배열에 temp에 저장한 2값 대입
+										// 따라서 2, 4, 1, 5, 3
 				}
 			}
 		}
