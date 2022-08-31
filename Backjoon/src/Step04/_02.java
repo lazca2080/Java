@@ -2,6 +2,11 @@ package Step04;
 
 import java.util.Scanner;
 
+/*
+ * 날짜 : 2022/08/30
+ * 이름 : 박종협
+ * 내용 : 백준 4단계 2번 : 최대값
+ */
 public class _02 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
@@ -16,24 +21,16 @@ public class _02 {
 		int i = sc.nextInt();
 		
 		int[] arr = {a, b, c, d, e, f, g, h, i};
-		
-		int Maxnum = arr[0];
-		int start = 0;
-		int end = arr.length;
-		int x = 1;
+		int maxnum = 0;
 		int count = 0;
 		
-		while(start<=end) {
-			if(Maxnum < arr[x]) {
-				Maxnum = arr[x];
-				x++;
-				count++;
-			}else if(Maxnum > arr[x]) {
-				break;
+		for(int x = 0; x<arr.length; x++) {
+			if(maxnum < arr[x]) {
+				maxnum = arr[x];
+				count = x+1;
 			}
 		}
-			
-		System.out.println(Maxnum);
-		
+		System.out.println(maxnum);
+		System.out.println(count);
 	}
 }
