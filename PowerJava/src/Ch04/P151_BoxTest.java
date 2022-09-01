@@ -1,4 +1,4 @@
-package ch04;
+package Ch04;
 
 public class P151_BoxTest {
 	public static void main(String[] args) {

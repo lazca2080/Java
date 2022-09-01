@@ -1,4 +1,4 @@
-package ch04;
+package Ch04;
 	
 public class P150_DeskLamp {
 	//인스턴스 변수 정의

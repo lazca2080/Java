@@ -1,4 +1,4 @@
-package ch02;
+package Ch02;
 
 /*
  * 날짜 : 2022/08/26 

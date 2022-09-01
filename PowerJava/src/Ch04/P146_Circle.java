@@ -1,4 +1,4 @@
-package ch04;
+package Ch04;
 
 public class P146_Circle {
 		
