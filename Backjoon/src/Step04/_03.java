@@ -3,6 +3,11 @@ package Step04;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/*
+ * 날짜 : 2022/08/31
+ * 이름 : 박종협
+ * 내용 : 백준 4단계 3번 : 나머지 첫번째 방법
+ */
 public class _03 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
