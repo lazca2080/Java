@@ -22,8 +22,6 @@ public class InterfaceTest {
 		// 인터페이스 결합도 완료
 		
 		
-		
-		
 	
 	}
 }
