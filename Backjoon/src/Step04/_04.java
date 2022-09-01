@@ -12,11 +12,12 @@ public class _04 {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int[] arr = new int[N];
+		int sum = 0;
 		
-		
-		for(int i = 1; i<N; i++) {
+		for(int i = 0; i<N; i++) {
 			int a = sc.nextInt();
 			arr[i] = a;
+			sum += arr[i];
 		}
 		
 		int Maxnum = arr[0];
@@ -25,10 +26,10 @@ public class _04 {
 			if(Maxnum < arr[x]) {
 				Maxnum = arr[x];
 			}
-			
-			
 		}
-		
-
+		float avg1 = (float)sum/Maxnum;
+		float avg2 = avg1 * 100;
+		float avg3 = avg2 / N;
+		System.out.println(avg3);
 	}
 }
