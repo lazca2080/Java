@@ -18,25 +18,19 @@ public class _05 {
 		for(int x = 0; x<arr.length; x++) {
 			String a = sc.next();
 			arr[x] = a;
+			char[] arr1 = new char[arr[x].length()];
 			for(int y = 0; y<arr[x].length(); y++) {
-				char[] arr1 = new char[arr[x].length()];
 				arr1[y] = arr[x].charAt(y);
-				if(arr1[0] == arr1[y]) {
-					arr1[0] = arr1[y];
+				if(arr1[y] == 'O') {
 					count++;
 					acount +=count;
 				}else {
 					count = 0;
-					
 				}
-				
 			}
 			System.out.println(acount);
+			acount = 0;
+			count = 0;
 		}
-		
-		
-		
 	}
-	
-
 }
