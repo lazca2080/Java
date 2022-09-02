@@ -12,7 +12,20 @@ public class _02 {
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		
+		if(N==1) {
+			System.out.println(N);
+		/*
+		 *   N     방
+		 *   1     1
+		 *   2     6
+		 * 	 3     12
+		 *   4     18
+		 *   5     24
+		 */
 		
+		}
+			
+		}
 		
 	}	
 }
