@@ -10,10 +10,14 @@ import java.util.Scanner;
 public class _10 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
+		int N = sc.nextInt();
 		int x = sc.nextInt();
 		
-		
+		for(int y = 1; y<=N; y++) {
+			 int a = sc.nextInt();
+			 if(x > a) {
+				 System.out.print(a+" ");
+			 }
+		}
 	}
-
 }
