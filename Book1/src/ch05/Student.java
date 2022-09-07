@@ -1,6 +1,6 @@
 package ch05;
 
-public class p129_Student {
+public class Student {
 	int studenID;
 	String studentName;
 	int grade;
@@ -15,7 +15,7 @@ public class p129_Student {
 	}
 	
 	public static void main(String[] args) {
-		p129_Student studentAhn = new p129_Student();
+		Student studentAhn = new Student();
 		studentAhn.studentName = "안연수";
 		
 		System.out.println(studentAhn.studentName);

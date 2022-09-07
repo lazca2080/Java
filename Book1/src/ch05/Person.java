@@ -1,6 +1,6 @@
 package ch05;
 
-public class p131_Person {
+public class Person {
 	String name;		//이름
 	int height;			//키
 	double weight;		//몸무게
