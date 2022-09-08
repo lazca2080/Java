@@ -60,7 +60,6 @@ public class RegularExpressTest {
 			}
 			System.out.println("\n");
 		}
-		
 		// 자주 사용하는 정규표현식
 		String ptt1 = "^[a-zA-z0-9]*$";
 		String ptt2 = "^[가-힣]*$";
