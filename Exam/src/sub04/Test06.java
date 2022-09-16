@@ -67,11 +67,19 @@ public class Test06 {
 		
 	}
 
-	public void showInfo(boolean fruit) {
+	public void showInfo(Object fruit) {
 		
-		if(fruit  Apple) {
-			Apple apple = new fruit;
+		if(fruit instanceof Apple) {
+			Apple apple = (Apple) fruit;
 			apple.show();
+		
+		}else if(fruit instanceof Banana) {
+			Banana banana = (Banana) fruit;
+			banana.show();
+			
+		}else if(fruit instanceof Grape) {
+			Grape grape = (Grape) fruit;
+			grape.show();
 		}
 		
 	}

@@ -1,5 +1,8 @@
 package sub04;
 
+import java.util.ArrayList;
+import java.util.List;
+
 /*
  * 날짜 : 2022/09/16
  * 이름 : 박종협
@@ -17,15 +20,28 @@ class Member {
 	}
 	
 	@Override
-	public String Member() {
-		
+	public String toString() {
+		return id+","+name+","+age;
 	}
-	
-	
 }
-
 
 public class Test09 {
-	
+	public static void main(String[] args) {
+		
+		Member m1 = new Member("hong", "홍길동", 30);
+		Member m2 = new Member("lee", "이순신", 40);
+		Member m3 = new Member("kim", "김유신", 50);
+		
+		List<Member> memberList = new ArrayList<>();
+		memberList.add(m1);
+		memberList.add(m2);
+		memberList.add(m3);
+		
+		for(Member m : memberList) {
+			System.out.println(m);
+		}
+		
+	}
 
 }
+
