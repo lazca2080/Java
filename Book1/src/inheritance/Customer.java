@@ -7,9 +7,12 @@ public class Customer {
 	int bonusPoint;
 	double bonusRatio;
 	
-	public Customer() {
+	public Customer(int cutsomerID, String customerName) {
+		this.customerID = cutsomerID;
+		this.customerName = customerName;
 		customerGrade = "SILVER";
 		bonusRatio = 0.01;
+		System.out.println("Customer(int, String) 생성자 호출");
 	}
 	
 	public int calcPrice(int price) {
@@ -22,6 +25,7 @@ public class Customer {
 	
 	}
 	
+	//protected로 설정되었기 때문에 get, set 추가해줌
 	public int getCustomerID() {
 		return customerID;
 	}
