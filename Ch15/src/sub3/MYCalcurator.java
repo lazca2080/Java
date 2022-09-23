@@ -47,9 +47,9 @@ public class MYCalcurator extends JFrame {
 		contentPane.setLayout(null);
 		
 		btnResultSreen = new JTextField();
+		btnResultSreen.setText("0");
 		btnResultSreen.setFont(new Font("굴림", Font.BOLD, 22));
 		btnResultSreen.setHorizontalAlignment(SwingConstants.RIGHT);
-		btnResultSreen.setText("0");
 		btnResultSreen.setBounds(12, 10, 296, 64);
 		contentPane.add(btnResultSreen);
 		btnResultSreen.setColumns(10);
@@ -87,10 +87,7 @@ public class MYCalcurator extends JFrame {
 		JButton btn1 = new JButton("1");
 		btn1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-				
-				if(btn1.isSelected()) {
-					btnResultSreen.setText("1");
-				}
+				btnResultSreen.setText("1");
 			}
 		});
 		btn1.setFont(new Font("Dialog", Font.BOLD, 18));

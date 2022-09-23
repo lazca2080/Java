@@ -1,5 +1,10 @@
 package main;
 
+/*
+ * 날짜 : 2022/09/23
+ * 이름 : 박종협
+ * 내용 : 프로그래밍 언어 응용_문제 4. 프로그램 작성
+ */
 import java.util.List;
 import java.util.Scanner;
 
