@@ -12,8 +12,8 @@ public class Test02 {
 		int b = 4;
 		int c = -21;
 		
-		int x1 = (-b + (int) Math.sqrt(b*b - 4*a*c)) / 2;
-		int x2 = (-b - (int) Math.sqrt(b*b - 4*a*c)) / 2;
+		int x1 = (-b + (int) Math.sqrt(b*b - 4*a*c)) / 2 * a;
+		int x2 = (-b - (int) Math.sqrt(b*b - 4*a*c)) / 2 * a;
 		
 		boolean result1 = a * Math.pow(x1, 2) + b * x1 + c == 0;
 		boolean result2 = a * Math.pow(x2, 2) + b * x2 + c == 0;
