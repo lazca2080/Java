@@ -7,7 +7,8 @@ public class VIPCustomer extends Customer {
 	
 	@Override
 	public int calcPrice(int price) {
-		return super.calcPrice(price);
+		bonusPoint += price * bonusRatio;
+		return price - (int)(price * saleRatio);
 	}
 
 	public VIPCustomer(int customerID, String customerName, int agentID) {

@@ -130,6 +130,10 @@ public class MYCalcurator extends JFrame {
 		contentPane.add(btnMinus);
 		
 		JButton btnPlust = new JButton("+");
+		btnPlust.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		btnPlust.setFont(new Font("Dialog", Font.BOLD, 18));
 		btnPlust.setBounds(243, 304, 65, 65);
 		contentPane.add(btnPlust);
