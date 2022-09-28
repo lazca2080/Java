@@ -9,7 +9,6 @@ interface Player {
 	public void play();
 }
 		
-		
 class BaseBallPlayer implements Player {
 	@Override
 	public void play() {

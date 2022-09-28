@@ -49,11 +49,10 @@ class Worker extends Person {
 	}
 }
 
-
 public class Test04 {
 	public static void main(String[] args) {
 		Student kim = new Student("김유신", 21, 20201234);
-		Worker lee = new Worker("이순신", 35, 20211201);
+		Worker  lee = new  Worker("이순신", 35, 20211201);
 		
 		kim.Hello();
 		lee.Hello();

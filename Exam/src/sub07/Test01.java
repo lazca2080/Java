@@ -16,13 +16,10 @@ class Box {
 		this.depth  = depth;
 	}
 			
-			
 	public double volume() {
 		return width * height * depth;
 	}
 }
-
-
 
 public class Test01 {
 	public static void main(String[] args) {
