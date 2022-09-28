@@ -6,7 +6,7 @@ package sub07;
  * 내용 : 자바 총정리 연습문제
  */
 interface Player {
-	public abstract void play();
+	public void play();
 }
 		
 		
